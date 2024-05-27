@@ -6,9 +6,6 @@ npm-debug.log*
 # Dependencies
 node_modules/
 
-# JetBrains IDEs
-.idea/
-
 # Optional npm cache directory
 .npm
 
@@ -20,15 +17,31 @@ node_modules/
 
 # Transpiled files
 build/
+dist/
 
-# .env you know
-.env
+# Local ENV files
+.env.local
+.env.*.local
 
-# .vscode
-.vscode/
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # .swc
 .swc/
 
-# dist
-dist/
+# System Files
+.DS_Store
+Thumbs.db
